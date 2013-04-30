@@ -9,16 +9,16 @@ Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 
 *Install Emmet in your favourite text editor.
 *Check 'snippets.json' to have custom IF IE support,
-cmf+f: ie6, sou you can find where.
+cmf+f: ie6, sou you can find where, and the add this lines:
 
 <pre>
-      "cc:ie7": "&lt;!--[if IE 7]>\n\t${child}|\n<![endif]--&gt;!",
-      "cc:ie7l": "&lt;!--[if lt IE 7]>\n\t${child}|\n<![endif]--&gt;!",
-      "cc:ie7": "&lt;!--[if IE 7]>\n\t${child}|\n<![endif]--&gt;!",
-      "cc:ie7g": "&lt;!--[if gt IE 7]>\n\t${child}|\n<![endif]--&gt;!",
-      "cc:ie8l": "&lt;!--[if lt IE 8]>\n\t${child}|\n<![endif]--&gt;!",
-      "cc:ie8": "&lt;!--[if IE 8]>\n\t${child}|\n<![endif]--&gt;!",
-      "cc:ie8g": "&lt;!--[if gt IE 8]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      "cc:ie7l": "&lt;!--[if lt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      "cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      "cc:ie7g": "&lt;!--[if gt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      "cc:ie8l": "&lt;!--[if lt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      "cc:ie8": "&lt;!--[if IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      "cc:ie8g": "&lt;!--[if gt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
 </pre>
 *Copy following code and hit [TAB], as always in Emmet.
 
