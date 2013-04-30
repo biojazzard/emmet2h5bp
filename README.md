@@ -12,6 +12,11 @@ Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 cmf+f: ie6, sou you can find where, and the add this lines:
 
 <pre>
+  "html": {
+    "filters": "html",
+    "profile": "html",
+    "snippets": {
+      ...
       "cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
       "cc:ie7l": "&lt;!--[if lt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
       "cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
@@ -19,6 +24,7 @@ cmf+f: ie6, sou you can find where, and the add this lines:
       "cc:ie8l": "&lt;!--[if lt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
       "cc:ie8": "&lt;!--[if IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
       "cc:ie8g": "&lt;!--[if gt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      ...
 </pre>
 *Copy following code and hit [TAB], as always in Emmet.
 
