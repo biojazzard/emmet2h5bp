@@ -12,13 +12,13 @@ Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 cmf+f: ie6, sou you can find where.
 
 <pre>
-      "cc:ie7": "<!--[if IE 7]>\n\t${child}|\n<![endif]-->",
-      "cc:ie7l": "<!--[if lt IE 7]>\n\t${child}|\n<![endif]-->",
-      "cc:ie7": "<!--[if IE 7]>\n\t${child}|\n<![endif]-->",
-      "cc:ie7g": "<!--[if gt IE 7]>\n\t${child}|\n<![endif]-->",
-      "cc:ie8l": "<!--[if lt IE 8]>\n\t${child}|\n<![endif]-->",
-      "cc:ie8": "<!--[if IE 8]>\n\t${child}|\n<![endif]-->",
-      "cc:ie8g": "<!--[if gt IE 8]>\n\t${child}|\n<![endif]-->",
+      "cc:ie7": "&lt;!--[if IE 7]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie7l": "&lt;!--[if lt IE 7]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie7": "&lt;!--[if IE 7]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie7g": "&lt;!--[if gt IE 7]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie8l": "&lt;!--[if lt IE 8]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie8": "&lt;!--[if IE 8]>\n\t${child}|\n<![endif]--&gt;!",
+      "cc:ie8g": "&lt;!--[if gt IE 8]>\n\t${child}|\n<![endif]--&gt;!",
 </pre>
 *Copy following code and hit [TAB], as always in Emmet.
 
