@@ -8,6 +8,18 @@ Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 ##How to
 
 *Install Emmet in your favourite text editor.
+*Edit 'snippets.json' to have custom IE support
+cmf+f: ie6, sou you can find where.
+
+<pre>
+      "cc:ie7": "<!--[if IE 7]>\n\t${child}|\n<![endif]-->",
+      "cc:ie7l": "<!--[if lt IE 7]>\n\t${child}|\n<![endif]-->",
+      "cc:ie7": "<!--[if IE 7]>\n\t${child}|\n<![endif]-->",
+      "cc:ie7g": "<!--[if gt IE 7]>\n\t${child}|\n<![endif]-->",
+      "cc:ie8l": "<!--[if lt IE 8]>\n\t${child}|\n<![endif]-->",
+      "cc:ie8": "<!--[if IE 8]>\n\t${child}|\n<![endif]-->",
+      "cc:ie8g": "<!--[if gt IE 8]>\n\t${child}|\n<![endif]-->",
+</pre>
 *Copy following code and hit [TAB], as always in Emmet.
 
 <pre>
