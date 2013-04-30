@@ -8,7 +8,7 @@ Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 ##How to
 
 *Install Emmet in your favourite text editor.
-*Edit 'snippets.json' to have custom IE support
+*Check 'snippets.json' to have custom IF IE support,
 cmf+f: ie6, sou you can find where.
 
 <pre>
