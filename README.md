@@ -1,7 +1,8 @@
-Emmet Snippet renders html5-boilerplate 
+Emmet Snippet that renders html5-boilerplate 
 ==============
 
-html5-boilerplate requires no presentation.
+html5-boilerplate requires no presentation: [http://html5boilerplate.com/]
+
 Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 
 ##How to
