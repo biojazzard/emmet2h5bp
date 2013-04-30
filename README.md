@@ -7,9 +7,9 @@ Please introduce yourself to the beauty of Emmet[http://emmet.io/]
 
 ##How to
 
-*Install Emmet in your favourite text editor.
-*Check 'snippets.json' to have custom IF IE support,
-cmf+f: ie6, sou you can find where, and the add this lines:
+* Install Emmet in your favourite text editor.
+* Check 'snippets.json' to have custom IF IE support,cmf+f: ie6, sou you can find where, and the add this lines:
+* (Or substitute your snippets.json with provided one.)
 
 <pre>
   "html": {
@@ -17,14 +17,15 @@ cmf+f: ie6, sou you can find where, and the add this lines:
     "profile": "html",
     "snippets": {
       ...
-      "cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
-      "cc:ie7l": "&lt;!--[if lt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
-      "cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
-      "cc:ie7g": "&lt;!--[if gt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
-      "cc:ie8l": "&lt;!--[if lt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
-      "cc:ie8": "&lt;!--[if IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
-      "cc:ie8g": "&lt;!--[if gt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",<br>
+      <strong>"cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
+      <strong>"cc:ie7l": "&lt;!--[if lt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
+      <strong>"cc:ie7": "&lt;!--[if IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
+      <strong>"cc:ie7g": "&lt;!--[if gt IE 7]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
+      <strong>"cc:ie8l": "&lt;!--[if lt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
+      <strong>"cc:ie8": "&lt;!--[if IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
+      <strong>"cc:ie8g": "&lt;!--[if gt IE 8]&gt;>\n\t${child}|\n&lt;![endif]--&gt;!",</strong>
       ...
+    },
 </pre>
 *Copy following code and hit [TAB], as always in Emmet.
 
